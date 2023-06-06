@@ -1,11 +1,3 @@
-from transformers import AutoTokenizer, AutoModel, logging
-from torch import nn
-import torch
-from torch.optim import AdamW
-
-logging.set_verbosity_error()
-
-
 import requests
 
 API_URL = "https://api-inference.huggingface.co/models/phmnm/finetunning_phobert_base_sentiment"
